@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Harbor Auto Repair</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<nav id = "n">
+            <div class="deskNav">
+                <div class="navText">
+                    <h1 class="logo">Harbor Auto Repair</h1>
+                    <ul>
+                        <li><a href="#con">Contact Us</a></li>
+                        <li><a href="#serv">Services</a></li>
+                        <li><a href="#ab">About</a></li>
+                        <li><a href="#">Home</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mobileNav" id = "mNav"> <!-- Navbar that appears below 767px screen width-->
+                <h1 class="logo">Harbor Auto Repair</h1>
+                <a href="#" onclick="myFunction()">Home</a>
+                <a href="#ab" onclick="myFunction()">About</a>
+                <a href="#serv" onclick="myFunction()">Services</a>
+                <a href="#con" onclick="myFunction()">Contact Us</a>
+                <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+            </div>
+        </nav>
+        <header>
+            <div class="mySlides raceCar fade">
+                <div class="textAd">
+                    <h2>Excellent Car Repair</h2>
+                </div>
+            </div>
+            <div class="mySlides engine fade">
+                <div class="textAd">
+                    <h2>Superb Car Service</h2>
+                </div>
+            </div>
+            <div class="mySlides know fade">
+                <div class="textAd">
+                    <h2>Expert Car Knowledge</h2>
+                </div>
+            </div>
+			<div class="mySlides guest fade">
+                <div class="textAd">
+                    <h2>Great Guest Service</h2>
+                </div>
+            </div>
+        </header>
+        <main>
+            <!--***************************** About *****************************-->
+            <div id ="ab" class="about sec">
+                <div class="heading">
+                    <h3><span class="red">About</span></h3>
+                    <p>
+                        We specialize in transmission and engine computer diagnostics
+						and repair. We also specialize in A/C service, brakes, suspension,
+						engine cooling systems, and much more, including all of your vehicle
+						maintenance services.
+                    </p>
+                </div>
+                <div class="content">
+                    <div id = "aPic" class="aContentBox">
+                        <img src="https://www.dropbox.com/s/zswj9s7iht0fbox/car-repair.jpg?raw=1" alt="car repair">
+                    </div>
+                    <div id = "text" class="aContentBox">
+                        <p>
+                            Our business was established on August 10th, 2002.
+							Since then we have always striven to meet the need
+							of our clients.
+                        </p>
+                        <p>
+                            We offer friendly and reliable services to our clients.
+							We also keep up with the technology in today's vehicles
+							to repair most issues.
+                        </p>
+                        <div class="aContentTopic">
+                            <h5>Car Repair</h5>
+                            <p>
+                                One of our main priorities is to fix the issue of our
+								client's vehicle, guarenteed. We also recommend any improvements
+								clients can have for their vehicle.
+                            </p>
+                        </div>
+                        <div class="aContentTopic">
+                            <h5>Car and Guest Service</h5>
+                            <p>
+                                Not only do we offer great service to vehicles,
+								but we also ensure trust and reliability with our clients.
+                            </p>
+                        </div>
+                        <div class="aContentTopic">
+                            <h5>Car Knowledge</h5>
+                            <p>
+                                As vehicles improve in technology, so do we. We study and keep
+								up to date with any updates vehicles may have.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--***************************** Services *****************************-->
+            <div id = "serv" class="services sec">
+                <div class="heading">
+                    <h3>Services</h3>
+                    <p>
+                        We offer many services such as working on engines, transmissions, air conditioning,
+						electrical, breaks, suspension, tires, and much more. Vehicle diagnosis is $79 plus
+						tear down fee if needed.
+                    </p>
+                </div>
+                <div class="content">
+                    <div class="sContentBox">
+                        <h4>Engine Service</h4>
+                        <p>
+                            Check engine lights, overheating, stalling, engine failure, etc.
+                        </p>
+                    </div>
+                    <div class="sContentBox">
+                        <h4>Transmission Service</h4>
+                        <p>
+                            Low transmission fluid, worn gear synchronizers,
+							worn clutches, etc. We also do overhauls.
+                        </p>
+                    </div>
+                    <div class="sContentBox">
+                        <h4>A/C Service</h4>
+                        <p>
+                            Air temperature issues, hose leaks, air moisture, stentches, etc.
+                        </p>
+                    </div>
+                    <div class="sContentBox">
+                        <h4>Electrical Service</h4>
+                        <p>
+                            Battery leaks, malfunctioning lights, burnt fuses,
+							loose spark plugs, etc.
+                        </p>
+                    </div>
+                    <div class="sContentBox">
+                        <h4>Suspension Service</h4>
+                        <p>
+                            Poor wheel alignment, shock absorbers, vehicle struts,
+							break replacement, etc.
+                        </p>
+                    </div>
+                    <div class="sContentBox">
+                        <h4>Tire Service</h4>
+                        <p>
+                            Tire replacement, low tire air, pressure diagnosis, etc.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!--***************************** Contact Us *****************************-->
+            <div id = "con" class="contact">
+                <div class="heading">
+                    <h3 class="red">Contact Us</h3>
+                    <p>
+                        We're located in San Pedro on Pacific Avenue and 18th street. Feel free to stop by for any
+						questions or give us a call. Our phone number is: (310) 833 - 4188. We accept cash and credit cards.
+                    </p>
+                </div>
+                <div class = "contentShow">
+					<div id = "shop" class = "showBox">
+						<img src = "https://www.dropbox.com/s/v153ypf42qt8dz4/frontpic.jpg?raw=1" alt = "front pic">
+					</div>
+					<div id = "map" class = "showBox">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3318.259098699675!2d-118.28982288539818!3d33.72811564218971!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dd362d54d5bc79%3A0x34a0f3fd131e6351!2sHarbor+Auto+Repair!5e0!3m2!1sen!2sus!4v1522189906622" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen>
+						</iframe>
+					</div>
+				</div>
+            </div>
+        </main>
+        <footer>
+            <div class="content">
+                <div class="footBox">
+                    <h4 class="logo">Harbor Auto Repair</h4>
+                    <p>
+                        Friendly, honest, and reliable auto shop in San Pedro.
+                    </p>
+                </div>
+                <div class="footBox">
+                    <h4>News and Updates</h4>
+                    <p>Coming soon.</p>
+                </div>
+                <div class="footBox">
+                    <h4>Contact Us</h4>
+                    <p>Address: 1750 S Pacific Ave, San Pedro, CA 90731</p>
+                    <p>Phone: (310) 833 - 4188</p>
+                </div>
+            </div>
+            <p id="copyright">
+                Copyright © 2019 Harbor Auto Repair.
+                <span id = "tommy">
+                    Website By: <a href="http://tommymejia.com" target = "_tommy">Thomas Mejia</a>.
+                </span>
+            </p>
+        </footer>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
